@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedangee Gadgil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="desk-nav">
+        <div class="logo">Vedangee Gadgil</div>
+        <div>
+            <ul class="navlink">
+              <li><a href="#about">About</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+       </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Vedangee Gadgil</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+              <li><a href="#about"class="active" onclick="toggleMenu()">About</a></li>
+              <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="sec_pic-container">
+            <img class="gif" src="https://i.pinimg.com/originals/70/eb/0b/70eb0b53eb57c91db403928c5d02a19a.gif" alt="image">
+        </div>
+        <div class="sec_text"> 
+             <p class="sec_text_p1">Hello I'm</p>
+             <h1 class="title">Vedangee Gadgil</h1>
+             <p class="sec_text_p2">Software Development Enthusiast</p>
+             <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Vedangee_Gadgil_Resume_ETC.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="text_container">
+            <p>I am a 22-year-old BTech graduate in Electronics and Telecommunication with a deep-rooted passion for technology. Throughout my academic journey, I gained a strong foundation in electronics, communication systems, and related technical fields. However, my interests have since expanded into the realms of software and web development, where I found my true calling in creating and working on innovative digital solutions.
+
+                My curiosity for software development sparked as I explored coding languages and web technologies. Over time, I have built a growing skill set in front-end and back-end development, allowing me to create intuitive and dynamic websites and applications. I enjoy the process of transforming ideas into functional and user-friendly software, always aiming to solve problems and deliver a seamless user experience.
+                
+                I am continuously learning new tools and frameworks to stay updated with the latest trends in development. My goal is to leverage my combined expertise in electronics and software to work on projects that intersect both fields, or to create impactful solutions in the digital space. With a strong drive for innovation and growth, I am excited to contribute to the tech industry and collaborate with like-minded professionals.
+            </p>
+        </div>
+    </section>
+    <section id="education">
+        <h1 class="title">Education</h1>
+        <div class="edu_text">
+            <ul>
+            <li><h4>Graduation:</h4></li>
+            <p class="sec_text_p2">B.Tech in Electronics and Telecommunication Engineering From Yeshwantrao Chavan College of Engineering.<br>Period: 2020-2024<br>CGPA:8.94</p>
+            <li><h4>12th:</h4></li>
+            <p class="sec_text_p2">MKH Sancheti Public School and Jr. College<br>Period: 2019-2020<br>Percentage:83.23%</p>
+            <li><h4>10th:</h4></li>
+            <p class="sec_text_p2">R.S. Mundle English School and Jr. College<br>Period: 2017-2018<br>Percentage:91.40%</p>
+        </ul>
+        </div>
+    </section>
+    <section id="contact">
+         <h1 class="title">Contact Me</h1>
+         <div class="contact-info-upper-con">
+            <div class="con-cont">
+                <img src="https://i.pinimg.com/564x/1f/e3/16/1fe3160c43ea413e645bc3b432a49594.jpg" class="icon icon-con">
+                <p><a href="mailto:vedangee.gadgil02@gmail.com">vedangee.gadgil02@gmail.com</a></p>
+            </div>
+            <div class="con-cont">
+                <img src="https://i.pinimg.com/564x/a8/80/bd/a880bd0dd5a97e5b4ff99ebe354d9e03.jpg" class="icon icon-con">
+                <p><a href="www.linkedin.com/in/vedangee-gadgil-a21931221">LinkedIn</a></p>
+            </div>
+         </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
